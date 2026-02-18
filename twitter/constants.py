@@ -103,7 +103,8 @@ class Operation:
     AudioSpaceById = {'id': str}, 'fYAuJHiY3TmYdBmrRtIKhA', 'AudioSpaceById'
     AudioSpaceSearch = {'filter': str, 'query': str}, 'NTq79TuSz6fHj8lQaferJw', 'AudioSpaceSearch',
     UserByScreenName = {'screen_name': str}, 'sLVLhk0bGj3MVFEKTdax1w', 'UserByScreenName'
-    UserTweets = {'userId': int}, 'HuTx74BxAnezK1gWvYY7zg', 'UserTweets'
+    # UserTweets = {'userId': int}, 'HuTx74BxAnezK1gWvYY7zg', 'UserTweets'
+    UserTweets = {'userId': int}, 'eApPT8jppbYXlweF_ByTyA', 'UserTweets'
     ProfileSpotlightsQuery = {'screen_name': str}, '9zwVLJ48lmVUk8u_Gh9DmA', 'ProfileSpotlightsQuery'
     UserByRestId = {'userId': int}, 'GazOglcBvgLigl3ywt6b3Q', 'UserByRestId'
     UsersByRestIds = {'userIds': list}, 'OJBgJQIrij6e3cjqQ3Zu1Q', 'UsersByRestIds'
