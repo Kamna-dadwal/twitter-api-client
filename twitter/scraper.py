@@ -593,7 +593,7 @@ class Scraper:
             'variables': Operation.default_variables | keys | kwargs,
             'features': Operation.default_features,
         }
-        r = await client.get(f'https://twitter.com/i/api/graphql/{qid}/{name}', params=build_params(params))
+        r = await client.get(f'https://x.com/i/api/graphql/{qid}/{name}', params=build_params(params))
 
         try:
             self.rate_limits[name] = {k: int(v) for k, v in r.headers.items() if 'rate-limit' in k}
